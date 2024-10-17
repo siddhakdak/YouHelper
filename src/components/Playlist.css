@@ -1,0 +1,115 @@
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+}
+
+.input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #3a3a3a;
+    border: none;
+    color: #999999;
+    font-size: 15px;
+    outline: none;
+}
+
+.button{
+    background-color: #009963;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 12px;
+    font-weight: bolder;
+    width: 300px;
+    cursor: pointer;
+}
+
+.input-button{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 20px;
+    justify-content:flex-start
+}
+
+
+.thumbnail{
+    width: 400px;
+    height: 300px;
+    border-radius: 20px;
+}
+
+.hero{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 0px;
+    background-color: black;
+    color: white;
+    width: 80%;
+}
+
+.h3{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.input-button h4{
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0%;
+}
+
+.durations-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.durations-grid div{
+    display: flex;
+    flex-direction: column;
+    background-color: #009963;
+    padding-left: 25px;
+    border-radius: 8px;
+    width: 500px;
+    color: white;
+    margin: 10px;
+
+}
+
+.cards h4{
+    font-size: 15px;
+    font-weight: bold;
+    padding: 0%;
+    /* height: 10px; */
+    font-weight: bolder;
+    padding: 12px;
+    margin: 0px;
+}
+
+.cards p{
+    font-size: 15px;
+    font-weight: bold;
+    padding: 0%;
+    /* height: 15px; */
+    font-weight: normal;
+    padding: 12px;
+    margin: 0px;
+}
+
+img[src=""] {
+    visibility: hidden; /* Hides the image if the src is empty */
+}

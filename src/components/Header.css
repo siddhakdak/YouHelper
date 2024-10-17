@@ -1,0 +1,40 @@
+.header_main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+    background-color: black;
+    color: white;
+    border-bottom: 3px solid #e0e0e0;
+  }
+  
+  .logo img {
+    height: 80px;
+    width: 200px;
+  }
+  
+  .lists {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+  }
+  
+  .lists li {
+    margin: 0 15px;
+    cursor: pointer;
+    background-color: black;
+    font-weight: bold;
+    padding: 10px;
+  }
+  
+  .lists li:hover {
+    color: antiquewhite;
+    background-color: #009963;
+    padding: 10px;
+    border-radius: 11px;
+    font-weight: bold;
+    transform: scale(1.05);
+  }
+  
