@@ -16,16 +16,16 @@ function reddenPage() {
     const seconds = total % 60;
     const minutes = Math.floor((total % 3600) / 60);
     const hours = Math.floor(total / 3600);
-    const totalDuration = `${hours.toString().padStart(2, "0")}:${minutes
+    const totalDuration = `${hours.toString().padStart(2, "0")}h:${minutes
         .toString()
-        .padStart(2, "0")}:${seconds.toString().padStart(2, "0")}`;
+        .padStart(2, "0")}m:${seconds.toString().padStart(2, "0")}s`;
 
     // Function to format time based on playback speeds
     function formatTime(durationInSeconds) {
         const s = durationInSeconds % 60;
         const m = Math.floor((durationInSeconds % 3600) / 60);
         const h = Math.floor(durationInSeconds / 3600);
-        return `${h.toString().padStart(2, "0")}:${m.toString().padStart(2, "0")}:${s.toString().padStart(2, "0")}`;
+        return `${h.toString().padStart(2, "0")}h:${m.toString().padStart(2, "0")}m:${s.toString().padStart(2, "0")}s`;
     }
 
     const totalSeconds = total;
@@ -48,7 +48,7 @@ function reddenPage() {
           color: #fff;
           box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
           margin-top: 20px;
-          max-width: 240px;
+          max-width: 400px;
           margin-left: auto;
           margin-right: auto;
           background: linear-gradient(135deg, rgba(255, 0, 150, 0.1), rgba(0, 204, 255, 0.1));

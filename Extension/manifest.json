@@ -4,6 +4,9 @@
   "version": "1.0",
   "description": "Automatically calculate total watch time on YouTube.",
   "permissions": ["scripting"],
+  "icons": {
+    "16": "icons/logo1.png"
+  },
   "content_scripts": [
     {
       "matches": ["*://www.youtube.com/playlist*"],
