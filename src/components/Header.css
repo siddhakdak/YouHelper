@@ -37,4 +37,13 @@
     font-weight: bold;
     transform: scale(1.05);
   }
+
+  .lists a{
+    color: white;
+  }
+
+  .gitlogo{
+    height: 25px;
+    width: 25px;
+  }
   

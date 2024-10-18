@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "YouTube Watch Time Tracker",
+  "version": "1.0",
+  "description": "Automatically calculate total watch time on YouTube.",
+  "permissions": ["scripting"],
+  "content_scripts": [
+    {
+      "matches": ["*://www.youtube.com/playlist*"],
+      "js": ["Content.js"]
+    }
+  ]
+}

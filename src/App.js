@@ -3,6 +3,7 @@ import './App.css';
 import Playlist from './components/Playlist';
 import Header from './components/Header';
 import Extension from './components/Extension';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Header/>
         <Playlist />
         <Extension/>
+        <Footer/>
         </>
       </main>
     </div>

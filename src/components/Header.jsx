@@ -13,10 +13,10 @@ const Header = () => {
 
       <div className="menu_items">
         <ul className='lists'>
-          <li>Home</li>
-          <li>About</li>
-          <li>Contact</li>
-          <li><FaGithub /></li>
+          {/* <li>Home</li> */}
+          {/* <li>About</li> */}
+          {/* <li>Contact</li> */}
+         <a href="https://github.com/siddhakdak/youHelper"> <li ><FaGithub className='gitlogo'/></li></a>
         </ul>
       </div>
     </div>
