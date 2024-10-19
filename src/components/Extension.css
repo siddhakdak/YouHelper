@@ -69,6 +69,7 @@
 
   @media (max-width: 480px) {
     .outer {
+      display: none;
       position: fixed;
       bottom: 161px;
       right: 30px;
