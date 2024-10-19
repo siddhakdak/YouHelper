@@ -47,3 +47,51 @@
     width: 25px;
   }
   
+
+  /* Media queries for responsiveness */
+@media (max-width: 768px) {
+  .header_main {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .logo img {
+    height: 60px;
+    width: 150px;
+  }
+
+  .lists {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .lists li {
+    margin: 10px 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .header_main {
+    padding: 10px 20px;
+    flex-direction: row;
+  }
+
+  .logo img {
+    height: 50px;
+    width: 120px;
+  }
+
+  .lists {
+    flex-direction: column;
+  }
+
+  .lists li {
+    margin: 5px 0;
+    padding: 8px;
+  }
+
+  .gitlogo {
+    height: 20px;
+    width: 20px;
+  }
+}

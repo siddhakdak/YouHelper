@@ -27,4 +27,11 @@
     50% { transform: scale(1.1); }
     100% { transform: scale(1); }
   }
+
+  @media (max-width: 480px) {
+    .footer{
+      width: 90%;
+      padding: 20px;
+    }
+  }
   

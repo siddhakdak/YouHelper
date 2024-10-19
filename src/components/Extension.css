@@ -66,3 +66,28 @@
     }
   }
   
+
+  @media (max-width: 480px) {
+    .outer {
+      position: fixed;
+      bottom: 10px;
+      right: 10px;
+      padding: 5px;
+      flex-direction: column; /* Stack elements vertically */
+      align-items: center;
+      justify-content: center;
+      width: 80px; /* Adjust width to fit smaller screens */
+    }
+  
+    .chromelogo img {
+      width: 35px;
+      height: 35px;
+    }
+  
+    .text h4 {
+      font-size: 10px;
+      margin: 5px 0 0 0; /* Reduce margin to fit text */
+      text-align: center;
+    }
+  }
+  
